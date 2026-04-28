@@ -163,8 +163,8 @@ Skill 是实时销售教练。
 7. **选择资料**：根据用户阶段发最小必要资料。读取 `references/material-routing.md`。
 8. **生成话术**：输出简短、具体、能直接复制的中文微信话术。读取 `references/talktracks.md`。
 9. **参考案例库**：遇到已生成/已发布/觉得课程不完美/认可形式但未付费的用户，读取 `references/case-playbooks.md`，避免陷入无限打磨。
-10. **处理套餐和成交**：用户问价格、套餐、采购时，先确认场景和权益需求，再推荐套餐，不做不安全承诺。读取 `references/package-rules.md`、`references/closing-playbook.md` 和 `references/procurement-faq.md`。
-11. **处理付款和开通**：用户决定购买时，引导到后台套餐页付款，并说明服务跟进和服务群规则。读取 `references/payment-and-opening.md`。
+10. **处理套餐和成交**：用户问价格、套餐、采购时，先确认场景和权益需求，再推荐套餐，不做不安全承诺。若用户关心“买后谁服务、有什么保障、发票合同、付费后福利”，读取 `references/paid-user-benefits.md`，用付费后承接降低购买风险。读取 `references/package-rules.md`、`references/closing-playbook.md` 和 `references/procurement-faq.md`。
+11. **处理付款和开通**：用户决定购买时，引导到后台套餐页付款，并说明赠送课程、付费客户群、月套餐/年套餐服务差异和发票合同支持。读取 `references/payment-and-opening.md` 和 `references/paid-user-benefits.md`。
 12. **排障或升级**：遇到技术、产品或商务边界问题，先收集必要信息，再升级。读取 `references/handoff-rules.md` 和 `references/troubleshooting.md`。
 13. **成交后客户成功**：给出 0-1 天、3 天、7 天、15 天、30 天客户成功动作。读取 `references/customer-success.md`。
 14. **记录和复盘**：默认不展开协作表字段；用户需要记录、批量线索或每日复盘时，再说明协作表怎么更新。每日复盘读取 `references/daily-review.md`。

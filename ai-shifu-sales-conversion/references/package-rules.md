@@ -2,6 +2,8 @@
 
 以下是安全的套餐销售口径。如细节不确定，统一说“以官方最终确认口径为准”。
 
+当用户问“买完以后有什么服务/福利/保障、是否有群、是否开发票、企业采购能否签合同”时，读取 `paid-user-benefits.md`。套餐推荐要结合付费后承接说明，帮助用户理解购买后不是自己摸索。
+
 ## 套餐矩阵
 
 | 套餐 | 价格 | 周期 | 积分 | 预计学习人数 | 适合对象 | 销售说明 |
@@ -44,7 +46,7 @@ Ask only what changes the recommendation:
 
 ## 付款入口
 
-Users can pay directly in the backend package billing page: `https://app.ai-shifu.cn/admin/billing?tab=packages`. After payment, a responsible person follows up service. Monthly package users join the all-user service group; yearly package users get a dedicated team service group.
+Users can pay directly in the backend package billing page: `https://app.ai-shifu.cn/admin/billing?tab=packages`. 购买任意套餐都会赠送课程。月套餐用户进入统一付费客户群；年套餐用户在统一付费客户群基础上拥有客户专有服务群和优先技术支持。所有订单可开发票，企业/机构采购可签电子合同。
 
 ## 安全问价话术
 
@@ -59,6 +61,12 @@ Users can pay directly in the backend package billing page: `https://app.ai-shif
 体验期最重要的是确认这三件事：产品能不能把你的内容变成交互课、你自己能不能跑通从资料到学习地址、这个方向是否适合继续做。
 
 如果这三点已经成立，就不用在体验期里把课程打磨到完美。后续正式使用时，可以借助更多积分、指导课和服务支持继续优化和做系列课。我们可以根据你接下来准备做几门课、给多少人用，判断适合的套餐。
+```
+
+## 付费后承接促进口径
+
+```text
+购买任意套餐都会赠送课程，帮助你快速理解 AI 师傅的课程创作和使用方式。月套餐会邀请进入统一付费客户群，群里有基础服务、案例分享和课程创作问题讨论；年套餐除了统一社群，还会有客户专有服务群和优先技术支持，更适合团队持续使用。所有订单都可以开发票，企业采购也可以签订电子合同。
 ```
 
 ## 企业采购话术

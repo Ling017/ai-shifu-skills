@@ -2,6 +2,8 @@
 
 当用户已经选择套餐，或询问“怎么付款、买了之后谁服务”时使用。
 
+若用户关心“买了以后有什么福利/服务/保障、是否开发票、企业采购能否签合同”，同时读取 `paid-user-benefits.md`。付款承接不只是开通通知，也可以作为购买前降低风险、促进成交的策略支持。
+
 ## 付款页面
 
 Users can pay directly in the backend billing package page:
@@ -13,15 +15,16 @@ Users can pay directly in the backend billing package page:
 ```text
 可以，套餐可以直接在后台积分套餐页面付款：
 https://app.ai-shifu.cn/admin/billing?tab=packages
-付款后会有负责人跟进服务。月套餐会进入全部用户服务群，年套餐会有团队专属服务群，后续会继续带你把课程做起来。
+
+购买任意套餐都会赠送课程。月套餐会邀请进入统一付费客户群，在群里提供基础服务、案例分享和课程创作问题讨论；年套餐除了社群，还会有客户专有服务群，并享有团队提供的优先技术支持。所有订单都可以开发票，企业采购也可以签订电子合同。
 ```
 
 ## 服务群规则
 
 | 套餐类型 | 服务安排 | 解释方式 |
 |---|---|---|
-| 月套餐 | 全部用户服务群 | 适合个人/小团队先跑通课程，有服务群承接基础问题 |
-| 年套餐 | 团队专属服务群 | 适合机构/企业/团队持续使用，会有团队专属服务群跟进 |
+| 月套餐 | 统一付费客户群 | 适合个人/小团队先跑通课程，有群内基础服务、案例分享和课程创作问题讨论 |
+| 年套餐 | 统一付费客户群 + 客户专有服务群 + 优先技术支持 | 适合机构/企业/团队持续使用，会有客户专有服务群跟进 |
 
 ## 付款后检查清单
 
@@ -33,21 +36,25 @@ Then do these actions:
 
 1. Confirm payment/package in backend or with responsible person.
 2. Tell user a responsible person will follow up service.
-3. Invite user to the correct service group: 月ly all-user group or yearly dedicated team group.
-4. 发送购买后课程创作指导课： `http://app.ai-shifu.cn/c/57b5dd9f3bb6478683ef7674403cefa4`.
+3. Invite user to the correct service group: 月套餐统一付费客户群；年套餐统一付费客户群 + 客户专有服务群.
+4. 发送赠送课程/购买后课程创作指导课： `http://app.ai-shifu.cn/c/57b5dd9f3bb6478683ef7674403cefa4`.
 5. Ask user to confirm the first official course material/topic.
 6. Set the 3-day and 7-day customer success follow-up.
 
 ## 付款后开通话术
 
 ```text
-已经收到你的开通信息。接下来先把第一门正式课跑通：
-1）我先发你课程创作指导课；
-2）你确定第一份要做的资料/主题；
-3）我们先盯到学习地址发布出来。
+已经收到你的开通信息。接下来我先把付费用户福利和使用路径同步给你：
 
-指导课在这里：
+1）购买套餐会赠送课程，帮助你快速理解课程创作和使用方式；
+2）月套餐会进入统一付费客户群，年套餐会有客户专有服务群和优先技术支持；
+3）积分用量告急时系统会自动提醒；
+4）订单可以开发票，企业采购也支持电子合同。
+
+赠送课程在这里：
 http://app.ai-shifu.cn/c/57b5dd9f3bb6478683ef7674403cefa4
+
+下一步我们先确认你的第一门正式课资料/主题，把第一条学习地址跑通。
 ```
 
 ## 如果用户需要企业采购流程
