@@ -154,7 +154,7 @@ Skill 是实时销售教练。
 
 ## 工作流程
 
-1. **先判断阶段**：识别用户处于初次接触、需求判断、首课体验、发布学习地址、案例/示例课验证、套餐成交或买后客户成功。若信息不足，按主动问询规范追问并给临时动作。读取 `references/active-intake.md`、`references/lead-stages.md` 和 `references/stage-playbook.md`。
+1. **先判断阶段**：识别用户处于初次接触、需求判断、首课体验、发布学习地址、案例/示例课验证、套餐成交或买后客户成功。若是发布会/直播/社群/朋友圈来源的首次加微信，优先读取 `references/first-contact-intake.md`，用“邀请进群 + 序号题收集背景”的低成本方式打客群标签，不要急着发案例、报价或建议。其他信息不足场景按主动问询规范追问并给临时动作。读取 `references/active-intake.md`、`references/lead-stages.md` 和 `references/stage-playbook.md`。
 2. **打四类标签**：只使用简化标签：客群、需求、进展、跟进。读取 `references/tags-and-followup.md`。
 3. **判断购买成熟度**：判断购买动机、决策角色、使用规模、时间节点、替代方案、成功标准和风险顾虑；已发布课程用户要重点判断是否进入价值确认/套餐判断，而不是继续打磨。读取 `references/sales-diagnosis.md`。
 4. **映射需求价值**：把用户的具体痛点转成 AI 师傅的具体价值和下一步动作；体验动作默认是用户自己用 WorkBuddy 和课程创作 Skill 做 5-10 分钟小样例。读取 `references/demand-value-map.md`。
