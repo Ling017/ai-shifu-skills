@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.course-learning/
+personal-lessons/
+backups/
+*.zip
+*.log
+progress.json
+profile.json
+practice.json
+credentials.json
+.shifu-sync.json

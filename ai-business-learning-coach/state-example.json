@@ -1,0 +1,40 @@
+{
+  "progress": {
+    "schema_version": 1,
+    "course_version": "",
+    "mode": "practice",
+    "cursor": {
+      "section_id": "s001",
+      "interaction_id": null,
+      "phase": "before_question",
+      "note": ""
+    },
+    "pending_question": null,
+    "variables": {},
+    "answers": {},
+    "exercise_context": "personal",
+    "example_variables": {},
+    "example_answers": {},
+    "context_summary": "",
+    "completed_sections": [],
+    "skipped_sections": [],
+    "return_cursor": null,
+    "completed": false,
+    "personal_return_cursor": null
+  },
+  "profile": {
+    "schema_version": 1,
+    "facts": []
+  },
+  "practice": {
+    "schema_version": 1,
+    "sessions": [],
+    "project_record": {},
+    "changes": [],
+    "example_project_record": {},
+    "platform_guidance": {
+      "recommended_sections": [],
+      "opt_out": false
+    }
+  }
+}

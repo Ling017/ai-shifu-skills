@@ -1,0 +1,325 @@
+{
+  "checked_at": "2026-09-15",
+  "lessons": [
+    {
+      "course_id": "2063e675b7f846f68e7f3d5f041f2f0f",
+      "lesson_number": 1,
+      "lesson_id": "c35064a2893e4ec48f862a817edd0ee1",
+      "title": "带入真实业务：先把问题说清楚",
+      "course_url": "https://app.ai-shifu.cn/c/2063e675b7f846f68e7f3d5f041f2f0f",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/2063e675b7f846f68e7f3d5f041f2f0f?lessonid=c35064a2893e4ec48f862a817edd0ee1",
+      "learner_ui_title": "带入真实业务：先把问题说清楚"
+    },
+    {
+      "course_id": "2063e675b7f846f68e7f3d5f041f2f0f",
+      "lesson_number": 2,
+      "lesson_id": "2b6f54cfab7443d78bbe4ec86b154255",
+      "title": "老板三问：能做什么，不能做什么",
+      "course_url": "https://app.ai-shifu.cn/c/2063e675b7f846f68e7f3d5f041f2f0f",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/2063e675b7f846f68e7f3d5f041f2f0f?lessonid=2b6f54cfab7443d78bbe4ec86b154255",
+      "learner_ui_title": "老板三问：能做什么，不能做什么"
+    },
+    {
+      "course_id": "2063e675b7f846f68e7f3d5f041f2f0f",
+      "lesson_number": 3,
+      "lesson_id": "93437d3ddbb946ceb30535458fa3374c",
+      "title": "这门生意靠什么赚钱",
+      "course_url": "https://app.ai-shifu.cn/c/2063e675b7f846f68e7f3d5f041f2f0f",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/2063e675b7f846f68e7f3d5f041f2f0f?lessonid=93437d3ddbb946ceb30535458fa3374c",
+      "learner_ui_title": "这门生意靠什么赚钱"
+    },
+    {
+      "course_id": "2063e675b7f846f68e7f3d5f041f2f0f",
+      "lesson_number": 4,
+      "lesson_id": "c5097f4baa964f74b8a9050838152fe7",
+      "title": "个人、单点还是端到端",
+      "course_url": "https://app.ai-shifu.cn/c/2063e675b7f846f68e7f3d5f041f2f0f",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/2063e675b7f846f68e7f3d5f041f2f0f?lessonid=c5097f4baa964f74b8a9050838152fe7",
+      "learner_ui_title": "个人、单点还是端到端"
+    },
+    {
+      "course_id": "2063e675b7f846f68e7f3d5f041f2f0f",
+      "lesson_number": 5,
+      "lesson_id": "caf96ffe23e346429506eed943816fdc",
+      "title": "当前有什么可用条件",
+      "course_url": "https://app.ai-shifu.cn/c/2063e675b7f846f68e7f3d5f041f2f0f",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/2063e675b7f846f68e7f3d5f041f2f0f?lessonid=caf96ffe23e346429506eed943816fdc",
+      "learner_ui_title": "当前有什么可用条件"
+    },
+    {
+      "course_id": "2063e675b7f846f68e7f3d5f041f2f0f",
+      "lesson_number": 6,
+      "lesson_id": "3b1c3edbffbe4c6881f31475c7dc3920",
+      "title": "把业务链拆开：找到真正的卡点",
+      "course_url": "https://app.ai-shifu.cn/c/2063e675b7f846f68e7f3d5f041f2f0f",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/2063e675b7f846f68e7f3d5f041f2f0f?lessonid=3b1c3edbffbe4c6881f31475c7dc3920",
+      "learner_ui_title": "把业务链拆开：找到真正的卡点"
+    },
+    {
+      "course_id": "2063e675b7f846f68e7f3d5f041f2f0f",
+      "lesson_number": 7,
+      "lesson_id": "24c145f8e5b64cbfafbf1ff43e36f5c1",
+      "title": "候选场景：先选高频又离钱近的点",
+      "course_url": "https://app.ai-shifu.cn/c/2063e675b7f846f68e7f3d5f041f2f0f",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/2063e675b7f846f68e7f3d5f041f2f0f?lessonid=24c145f8e5b64cbfafbf1ff43e36f5c1",
+      "learner_ui_title": "候选场景：先选高频又离钱近的点"
+    },
+    {
+      "course_id": "2063e675b7f846f68e7f3d5f041f2f0f",
+      "lesson_number": 8,
+      "lesson_id": "9447a845aa9b47a98fcf089f995d22e3",
+      "title": "把切入点变成最小 AI 闭环",
+      "course_url": "https://app.ai-shifu.cn/c/2063e675b7f846f68e7f3d5f041f2f0f",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/2063e675b7f846f68e7f3d5f041f2f0f?lessonid=9447a845aa9b47a98fcf089f995d22e3",
+      "learner_ui_title": "把切入点变成最小 AI 闭环"
+    },
+    {
+      "course_id": "2063e675b7f846f68e7f3d5f041f2f0f",
+      "lesson_number": 9,
+      "lesson_id": "6281f65c644a424abd88f63ddf595b19",
+      "title": "怎样验证价值",
+      "course_url": "https://app.ai-shifu.cn/c/2063e675b7f846f68e7f3d5f041f2f0f",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/2063e675b7f846f68e7f3d5f041f2f0f?lessonid=6281f65c644a424abd88f63ddf595b19",
+      "learner_ui_title": "怎样验证价值"
+    },
+    {
+      "course_id": "2063e675b7f846f68e7f3d5f041f2f0f",
+      "lesson_number": 10,
+      "lesson_id": "f20902f476c242e58ff1d6098c77d150",
+      "title": "AI 业务落地初步判断",
+      "course_url": "https://app.ai-shifu.cn/c/2063e675b7f846f68e7f3d5f041f2f0f",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/2063e675b7f846f68e7f3d5f041f2f0f?lessonid=f20902f476c242e58ff1d6098c77d150",
+      "learner_ui_title": "中小企业 AI 业务落地初步判断"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 1,
+      "lesson_id": "1a27004232234f349177221ba563d411",
+      "title": "AI 要做好业务，先要理解业务",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=1a27004232234f349177221ba563d411",
+      "learner_ui_title": "AI 要做好业务，先要理解业务"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 2,
+      "lesson_id": "2f234cac56724c8593bf9716e9881f10",
+      "title": "怎样把业务讲清楚？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=2f234cac56724c8593bf9716e9881f10",
+      "learner_ui_title": "怎样把业务讲清楚？"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 3,
+      "lesson_id": "04ba86f7780a4044a342540256df3782",
+      "title": "为什么内部访谈和用户体验都不能少？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=04ba86f7780a4044a342540256df3782",
+      "learner_ui_title": "为什么内部访谈和用户体验都不能少？"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 4,
+      "lesson_id": "a060601719cb4b10bb4a31bc0edee4c5",
+      "title": "数据、语料、语料资产与知识库有什么区别？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=a060601719cb4b10bb4a31bc0edee4c5",
+      "learner_ui_title": "数据、语料、语料资产与知识库有什么区别？"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 5,
+      "lesson_id": "be03ab13ae584cc5950d629f6ae7c28f",
+      "title": "知识库怎样帮助 AI 回答问题？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=be03ab13ae584cc5950d629f6ae7c28f",
+      "learner_ui_title": "知识库怎样帮助 AI 回答问题？"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 6,
+      "lesson_id": "f5fb072f6797420390215bb8e4f310e5",
+      "title": "数据清洗、数据质量和数据治理有什么区别？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=f5fb072f6797420390215bb8e4f310e5",
+      "learner_ui_title": "数据清洗、数据质量和数据治理有什么区别？"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 7,
+      "lesson_id": "c2602f1487154a9693659ace74d68bd7",
+      "title": "业务数据为什么会变乱？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=c2602f1487154a9693659ace74d68bd7",
+      "learner_ui_title": "业务数据为什么会变乱？"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 8,
+      "lesson_id": "de8cca9e3639486f8521e66c1bc8766c",
+      "title": "数据清洗到底在改什么？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=de8cca9e3639486f8521e66c1bc8766c",
+      "learner_ui_title": "数据清洗到底在改什么？"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 9,
+      "lesson_id": "4923c91867a740bba8f60dc39a5da047",
+      "title": "不同平台的记录，怎样判断是不是同一个人？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=4923c91867a740bba8f60dc39a5da047",
+      "learner_ui_title": "不同平台的记录，怎样判断是不是同一个人？"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 10,
+      "lesson_id": "0f73231dc62f484382db0c95dea0d39e",
+      "title": "为什么要把一个人的不同记录串起来？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=0f73231dc62f484382db0c95dea0d39e",
+      "learner_ui_title": "为什么要把一个人的不同记录串起来？"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 11,
+      "lesson_id": "f7fdb018d49a474c90c23a645e95324d",
+      "title": "事实、判断和下一步动作有什么区别？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=f7fdb018d49a474c90c23a645e95324d",
+      "learner_ui_title": "事实、判断和下一步动作有什么区别？"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 12,
+      "lesson_id": "e383387f75674c3d8af641a075e90dd3",
+      "title": "发现异常后，为什么先保留证据？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=e383387f75674c3d8af641a075e90dd3",
+      "learner_ui_title": "发现异常后，为什么先保留证据？"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 13,
+      "lesson_id": "aa7ace2059874ebea8ba52e816fbcb04",
+      "title": "看完一个案例：数据怎样从混乱走向可用？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=aa7ace2059874ebea8ba52e816fbcb04",
+      "learner_ui_title": "看完一个案例：数据怎样从混乱走向可用？"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 14,
+      "lesson_id": "b75baedc33b4453fa97481b29e661b74",
+      "title": "为什么先盘点材料来源？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=b75baedc33b4453fa97481b29e661b74",
+      "learner_ui_title": "为什么先盘点材料来源？"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 15,
+      "lesson_id": "429c5f40704c45cb8e2d022f43c2aeee",
+      "title": "为什么事实、规则、案例和观点要分层？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=429c5f40704c45cb8e2d022f43c2aeee",
+      "learner_ui_title": "为什么事实、规则、案例和观点要分层？"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 16,
+      "lesson_id": "f74bfbd144f1463fb42911034e5aa643",
+      "title": "语料切片为什么取决于应用场景？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=f74bfbd144f1463fb42911034e5aa643",
+      "learner_ui_title": "语料切片为什么取决于应用场景？"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 17,
+      "lesson_id": "b1698c502de3415c978d0924a613dba8",
+      "title": "语料分类怎样帮助后续调用？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=b1698c502de3415c978d0924a613dba8",
+      "learner_ui_title": "语料分类怎样帮助后续调用？"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 18,
+      "lesson_id": "26dc52a1302645729cafadc19d3b8cd3",
+      "title": "一张可使用的知识卡包含什么？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=26dc52a1302645729cafadc19d3b8cd3",
+      "learner_ui_title": "一张可使用的知识卡包含什么？"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 19,
+      "lesson_id": "a39891fbd9a34a2384ef906bf68d256a",
+      "title": "怎样判断知识库有没有用？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=a39891fbd9a34a2384ef906bf68d256a",
+      "learner_ui_title": "怎样判断知识库有没有用？"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 20,
+      "lesson_id": "22484152dc334c659d408e314bc98567",
+      "title": "为什么知识库测试可能出现“虚高”？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=22484152dc334c659d408e314bc98567",
+      "learner_ui_title": "为什么知识库测试可能出现“虚高”？"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 21,
+      "lesson_id": "f5ce2e6913d843268e104780f0fc166b",
+      "title": "知识库为什么需要维护，工具应该怎么看？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=f5ce2e6913d843268e104780f0fc166b",
+      "learner_ui_title": "知识库为什么需要维护，工具应该怎么看？"
+    },
+    {
+      "course_id": "7c044f90631f45a39e27fc5aa2c34444",
+      "lesson_number": 22,
+      "lesson_id": "3040266b597d4b81b3e4e3fe7c0a0ffe",
+      "title": "看完一个案例：散乱材料怎样变成可用知识？",
+      "course_url": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444",
+      "link_status": "verified_learner_ui_navigation",
+      "deep_link": "https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=3040266b597d4b81b3e4e3fe7c0a0ffe",
+      "learner_ui_title": "看完一个案例：散乱材料怎样变成可用知识？"
+    }
+  ]
+}

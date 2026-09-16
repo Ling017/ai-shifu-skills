@@ -1,0 +1,864 @@
+{
+  "schema_version": 1,
+  "name": "ai-business-learning-coach",
+  "title": "AI 业务操盘手的产品工程通识",
+  "review_status": "reviewed",
+  "sections": [
+    {
+      "id": "s001",
+      "title": "AI 项目为什么需要画三张地图",
+      "chapter": "第一章 在 AI 业务操盘落地之前",
+      "file": "sections/001.md",
+      "prerequisites": [],
+      "teaching_boundary": "需求存在或 Demo 成功不能推出业务成立；公司收费不等于该 AI 项目上线。",
+      "interactions": [
+        {
+          "id": "s001:q001",
+          "line": 37,
+          "offset": 987,
+          "end_offset": 1069,
+          "raw": "?[%{{learner_role}} 运营负责人 | 产品经理或产品负责人 | 销售或客户成功 | FDE 从业者 | 企业管理者 | ...其他非技术业务角色]",
+          "kind": "single",
+          "variable": "learner_role",
+          "options": [
+            "运营负责人",
+            "产品经理或产品负责人",
+            "销售或客户成功",
+            "FDE 从业者",
+            "企业管理者"
+          ],
+          "free_text": true,
+          "input_hint": "其他非技术业务角色"
+        },
+        {
+          "id": "s001:q002",
+          "line": 42,
+          "offset": 1167,
+          "end_offset": 1219,
+          "raw": "?[%{{case_position}} 自己公司的业务 | 合作甲方的业务 | ...其他已脱敏场景]",
+          "kind": "single",
+          "variable": "case_position",
+          "options": [
+            "自己公司的业务",
+            "合作甲方的业务"
+          ],
+          "free_text": true,
+          "input_hint": "其他已脱敏场景"
+        },
+        {
+          "id": "s001:q003",
+          "line": 49,
+          "offset": 1367,
+          "end_offset": 1414,
+          "raw": "?[%{{project_context}} ...只写脱敏的业务问题、主要使用者和预期变化]",
+          "kind": "input",
+          "variable": "project_context",
+          "options": [],
+          "free_text": true,
+          "input_hint": "只写脱敏的业务问题、主要使用者和预期变化"
+        },
+        {
+          "id": "s001:q004",
+          "line": 57,
+          "offset": 1558,
+          "end_offset": 1636,
+          "raw": "?[%{{project_stage}} 只有想法 | 已有人工流程 | 已有内部 Demo | 小范围真实使用 | 已对外服务或收费 | ...其他阶段]",
+          "kind": "single",
+          "variable": "project_stage",
+          "options": [
+            "只有想法",
+            "已有人工流程",
+            "已有内部 Demo",
+            "小范围真实使用",
+            "已对外服务或收费"
+          ],
+          "free_text": true,
+          "input_hint": "其他阶段"
+        }
+      ],
+      "variable_references": [
+        "case_position",
+        "learner_role",
+        "project_context",
+        "project_stage"
+      ],
+      "outline_bid": "0de46adc0ee9488db8436ed208c11a56",
+      "chapter_bid": "130693eef7614c8ca65817d254eb5d48"
+    },
+    {
+      "id": "s002",
+      "title": "现在适不适合做 AI 业务落地",
+      "chapter": "第一章 在 AI 业务操盘落地之前",
+      "file": "sections/002.md",
+      "prerequisites": [],
+      "teaching_boundary": "老板没用过 AI 不否定获授权的局部试点；稳定收入非所有场景门槛；参考路径不是升级义务。",
+      "interactions": [
+        {
+          "id": "s002:q001",
+          "line": 9,
+          "offset": 147,
+          "end_offset": 205,
+          "raw": "?[资料尚未全部整理 || 老板无法评判结果 || 团队没有专职开发 || 仍在比较模型效果 || ...其他原因]",
+          "kind": "multi",
+          "variable": null,
+          "options": [
+            "资料尚未全部整理",
+            "老板无法评判结果",
+            "团队没有专职开发",
+            "仍在比较模型效果"
+          ],
+          "free_text": true,
+          "input_hint": "其他原因"
+        },
+        {
+          "id": "s002:q002",
+          "line": 61,
+          "offset": 2006,
+          "end_offset": 2096,
+          "raw": "?[%{{business_scope}} 先做老板或关键人的个人 AI 化 | 先做一个业务节点 | 探索一条端到端完整业务流程 | 当前证据不足，先补事实 | ...其他判断]",
+          "kind": "single",
+          "variable": "business_scope",
+          "options": [
+            "先做老板或关键人的个人 AI 化",
+            "先做一个业务节点",
+            "探索一条端到端完整业务流程",
+            "当前证据不足，先补事实"
+          ],
+          "free_text": true,
+          "input_hint": "其他判断"
+        },
+        {
+          "id": "s002:q003",
+          "line": 68,
+          "offset": 2271,
+          "end_offset": 2334,
+          "raw": "?[老板本人能力与意愿 | 业务赚钱逻辑 | 流程稳定程度 | 数据和资料基础 | 预算、权限与时间预期 | ...其他证据]",
+          "kind": "single",
+          "variable": null,
+          "options": [
+            "老板本人能力与意愿",
+            "业务赚钱逻辑",
+            "流程稳定程度",
+            "数据和资料基础",
+            "预算、权限与时间预期"
+          ],
+          "free_text": true,
+          "input_hint": "其他证据"
+        }
+      ],
+      "variable_references": [
+        "business_scope",
+        "case_position",
+        "learner_role",
+        "project_context"
+      ],
+      "outline_bid": "1f51bcecfdca4018931a1d25ddcc5d19",
+      "chapter_bid": "130693eef7614c8ca65817d254eb5d48"
+    },
+    {
+      "id": "s003",
+      "title": "先拆业务的流程和结果",
+      "chapter": "第二章 从业务流程找到正确切入点",
+      "file": "sections/003.md",
+      "prerequisites": [],
+      "teaching_boundary": "频次或离钱近不能单独定优先级；示例不能当作学员已诊断的原因。",
+      "interactions": [
+        {
+          "id": "s003:q001",
+          "line": 6,
+          "offset": 191,
+          "end_offset": 258,
+          "raw": "?[两个环节各自每天发生多少次 | 各自影响哪一步业务结果，以及实际损失 | 哪个环节已有成熟 AI 工具 | 两个团队谁更愿意试用]",
+          "kind": "single",
+          "variable": null,
+          "options": [
+            "两个环节各自每天发生多少次",
+            "各自影响哪一步业务结果，以及实际损失",
+            "哪个环节已有成熟 AI 工具",
+            "两个团队谁更愿意试用"
+          ],
+          "free_text": false,
+          "input_hint": null
+        },
+        {
+          "id": "s003:q002",
+          "line": 44,
+          "offset": 1382,
+          "end_offset": 1436,
+          "raw": "?[%{{business_bottleneck}} ...写明业务位置、现在怎样做、谁受影响及可观察后果]",
+          "kind": "input",
+          "variable": "business_bottleneck",
+          "options": [],
+          "free_text": true,
+          "input_hint": "写明业务位置、现在怎样做、谁受影响及可观察后果"
+        },
+        {
+          "id": "s003:q003",
+          "line": 55,
+          "offset": 1621,
+          "end_offset": 1685,
+          "raw": "?[清晰流程 | 可调用资料或经验 | 结构化数据 | 明确责任人 | 反馈与衡量机制 | 还需要继续访谈 | ...其他条件]",
+          "kind": "single",
+          "variable": null,
+          "options": [
+            "清晰流程",
+            "可调用资料或经验",
+            "结构化数据",
+            "明确责任人",
+            "反馈与衡量机制",
+            "还需要继续访谈"
+          ],
+          "free_text": true,
+          "input_hint": "其他条件"
+        }
+      ],
+      "variable_references": [
+        "business_bottleneck",
+        "business_scope"
+      ],
+      "outline_bid": "3ead401698654b0898492eb8f13cd52b",
+      "chapter_bid": "893d42907e6d48768e6e3c94563c82f5"
+    },
+    {
+      "id": "s004",
+      "title": "把问题变成可验证的最小闭环",
+      "chapter": "第二章 从业务流程找到正确切入点",
+      "file": "sections/004.md",
+      "prerequisites": [
+        "s003"
+      ],
+      "teaching_boundary": "两到四周仅是例子；不编阈值、回报率或将设想写成已有效。",
+      "interactions": [
+        {
+          "id": "s004:q001",
+          "line": 7,
+          "offset": 127,
+          "end_offset": 180,
+          "raw": "?[应先做，问题已造成明显损失 | 还要核对条件和失败后果 | 应先补齐全量资料 | 应先等流程完全稳定]",
+          "kind": "single",
+          "variable": null,
+          "options": [
+            "应先做，问题已造成明显损失",
+            "还要核对条件和失败后果",
+            "应先补齐全量资料",
+            "应先等流程完全稳定"
+          ],
+          "free_text": false,
+          "input_hint": null
+        },
+        {
+          "id": "s004:q002",
+          "line": 63,
+          "offset": 1558,
+          "end_offset": 1605,
+          "raw": "?[%{{minimum_loop}} ...写明输入、判断、动作、人工节点、反馈和停止条件]",
+          "kind": "input",
+          "variable": "minimum_loop",
+          "options": [],
+          "free_text": true,
+          "input_hint": "写明输入、判断、动作、人工节点、反馈和停止条件"
+        },
+        {
+          "id": "s004:q003",
+          "line": 75,
+          "offset": 1804,
+          "end_offset": 1875,
+          "raw": "?[效率或周期变化 | 转化或触达变化 | 质量与错误变化 | 用户持续使用行为 | 暂时无法衡量，需要先记录现在的表现 | ...其他证据]",
+          "kind": "single",
+          "variable": null,
+          "options": [
+            "效率或周期变化",
+            "转化或触达变化",
+            "质量与错误变化",
+            "用户持续使用行为",
+            "暂时无法衡量，需要先记录现在的表现"
+          ],
+          "free_text": true,
+          "input_hint": "其他证据"
+        }
+      ],
+      "variable_references": [
+        "business_bottleneck",
+        "minimum_loop"
+      ],
+      "outline_bid": "bf14d584671f486ba15d729fd75d26af",
+      "chapter_bid": "893d42907e6d48768e6e3c94563c82f5"
+    },
+    {
+      "id": "s005",
+      "title": "怎么判断 AI、程序、人的合作",
+      "chapter": "第三章 形成产品与系统方案方向",
+      "file": "sections/005.md",
+      "prerequisites": [
+        "s004"
+      ],
+      "teaching_boundary": "生成建议不等于执行权限；平均准确率不能抵消高损失错误；超时不默认放行。",
+      "interactions": [
+        {
+          "id": "s005:q001",
+          "line": 6,
+          "offset": 135,
+          "end_offset": 180,
+          "raw": "?[大模型自由判断 | Agent 自主规划 | 程序规则或工作流 | 人工每天临时决定]",
+          "kind": "single",
+          "variable": null,
+          "options": [
+            "大模型自由判断",
+            "Agent 自主规划",
+            "程序规则或工作流",
+            "人工每天临时决定"
+          ],
+          "free_text": false,
+          "input_hint": null
+        },
+        {
+          "id": "s005:q002",
+          "line": 43,
+          "offset": 1143,
+          "end_offset": 1205,
+          "raw": "?[%{{responsibility_boundary}} ...分别写出 AI 判断或生成、程序执行规则、人确认或兜底]",
+          "kind": "input",
+          "variable": "responsibility_boundary",
+          "options": [],
+          "free_text": true,
+          "input_hint": "分别写出 AI 判断或生成、程序执行规则、人确认或兜底"
+        },
+        {
+          "id": "s005:q003",
+          "line": 51,
+          "offset": 1375,
+          "end_offset": 1443,
+          "raw": "?[对外发送或承诺 | 修改客户或订单数据 | 产生费用或权益 | 输出高风险专业结论 | 当前只有低风险内部建议 | ...其他动作]",
+          "kind": "single",
+          "variable": null,
+          "options": [
+            "对外发送或承诺",
+            "修改客户或订单数据",
+            "产生费用或权益",
+            "输出高风险专业结论",
+            "当前只有低风险内部建议"
+          ],
+          "free_text": true,
+          "input_hint": "其他动作"
+        }
+      ],
+      "variable_references": [
+        "responsibility_boundary"
+      ],
+      "outline_bid": "54ba4b2db71f4437b8c12d484195fe5e",
+      "chapter_bid": "fd622a847cf34fa7b6528b35876f3f59"
+    },
+    {
+      "id": "s006",
+      "title": "怎么选择 AI 解决方案",
+      "chapter": "第三章 形成产品与系统方案方向",
+      "file": "sections/006.md",
+      "prerequisites": [
+        "s005"
+      ],
+      "teaching_boundary": "这些不是升级阶梯；工作流也能调用 AI；内部或现成平台仍承担相应工程责任。",
+      "interactions": [
+        {
+          "id": "s006:q001",
+          "line": 8,
+          "offset": 191,
+          "end_offset": 256,
+          "raw": "?[先交付提示词，服务以后补 | 先核对用户入口与服务责任 | 先改成自主调用工具的 Agent | 先自研网站，再验证用户需求]",
+          "kind": "single",
+          "variable": null,
+          "options": [
+            "先交付提示词，服务以后补",
+            "先核对用户入口与服务责任",
+            "先改成自主调用工具的 Agent",
+            "先自研网站，再验证用户需求"
+          ],
+          "free_text": false,
+          "input_hint": null
+        },
+        {
+          "id": "s006:q002",
+          "line": 65,
+          "offset": 1917,
+          "end_offset": 1974,
+          "raw": "?[%{{product_direction}} ...写使用者、入口、完成步骤、方案及理由；不确定处可写待确认]",
+          "kind": "input",
+          "variable": "product_direction",
+          "options": [],
+          "free_text": true,
+          "input_hint": "写使用者、入口、完成步骤、方案及理由；不确定处可写待确认"
+        },
+        {
+          "id": "s006:q003",
+          "line": 81,
+          "offset": 2578,
+          "end_offset": 2650,
+          "raw": "?[账号与权限 | 数据对象和状态 | 知识管理 | 模型调用与成本 | 日志、调试与安全 | 当前只有一个场景，暂不需要 | ...其他判断]",
+          "kind": "single",
+          "variable": null,
+          "options": [
+            "账号与权限",
+            "数据对象和状态",
+            "知识管理",
+            "模型调用与成本",
+            "日志、调试与安全",
+            "当前只有一个场景，暂不需要"
+          ],
+          "free_text": true,
+          "input_hint": "其他判断"
+        }
+      ],
+      "variable_references": [
+        "business_scope",
+        "product_direction",
+        "project_stage",
+        "responsibility_boundary"
+      ],
+      "outline_bid": "2114b15bef464bc5b2f9f0599da80a9a",
+      "chapter_bid": "fd622a847cf34fa7b6528b35876f3f59"
+    },
+    {
+      "id": "s007",
+      "title": "如何让 AI 更理解业务",
+      "chapter": "第四章 把业务真正翻译成系统",
+      "file": "sections/007.md",
+      "prerequisites": [
+        "s006"
+      ],
+      "teaching_boundary": "材料量不等于可用；用户自述不能替代实时事实；不要求学员实际建库或接口。",
+      "interactions": [
+        {
+          "id": "s007:q001",
+          "line": 6,
+          "offset": 135,
+          "end_offset": 185,
+          "raw": "?[客户说已付款的聊天 | 上次导出的订单表 | 经核验且足够新的订单记录 | 知识库中的付款规则]",
+          "kind": "single",
+          "variable": null,
+          "options": [
+            "客户说已付款的聊天",
+            "上次导出的订单表",
+            "经核验且足够新的订单记录",
+            "知识库中的付款规则"
+          ],
+          "free_text": false,
+          "input_hint": null
+        },
+        {
+          "id": "s007:q002",
+          "line": 69,
+          "offset": 1877,
+          "end_offset": 1935,
+          "raw": "?[%{{business_system_map}} ...每类只写支撑第一版要跑通的业务流程所需内容，不追求填满]",
+          "kind": "input",
+          "variable": "business_system_map",
+          "options": [],
+          "free_text": true,
+          "input_hint": "每类只写支撑第一版要跑通的业务流程所需内容，不追求填满"
+        },
+        {
+          "id": "s007:q003",
+          "line": 76,
+          "offset": 2090,
+          "end_offset": 2165,
+          "raw": "?[对象或字段含义不清 | 状态定义不统一 | 规则只在人脑里 | 知识过期或无来源 | 实时数据无法取得 | 上下文过长或混杂 | ...其他问题]",
+          "kind": "single",
+          "variable": null,
+          "options": [
+            "对象或字段含义不清",
+            "状态定义不统一",
+            "规则只在人脑里",
+            "知识过期或无来源",
+            "实时数据无法取得",
+            "上下文过长或混杂"
+          ],
+          "free_text": true,
+          "input_hint": "其他问题"
+        }
+      ],
+      "variable_references": [
+        "business_system_map"
+      ],
+      "outline_bid": "3a07fbf06b95460b8734cd48127e49ce",
+      "chapter_bid": "f8cc810ae3524d6f8ee2c9dc6a45d91f"
+    },
+    {
+      "id": "s008",
+      "title": "为什么系统不懂业务",
+      "chapter": "第四章 把业务真正翻译成系统",
+      "file": "sections/008.md",
+      "prerequisites": [
+        "s007"
+      ],
+      "teaching_boundary": "订单与意向可并存；意向不等于营销许可；不是物理合成一个文件或直接删旧模块。",
+      "interactions": [
+        {
+          "id": "s008:q001",
+          "line": 6,
+          "offset": 145,
+          "end_offset": 207,
+          "raw": "?[系统提示词会覆盖所有旧规则 | 其他位置可能仍使用旧规则 | 发布新版本后通常会一起更新 | 场景规则应始终优先于代码]",
+          "kind": "single",
+          "variable": null,
+          "options": [
+            "系统提示词会覆盖所有旧规则",
+            "其他位置可能仍使用旧规则",
+            "发布新版本后通常会一起更新",
+            "场景规则应始终优先于代码"
+          ],
+          "free_text": false,
+          "input_hint": null
+        },
+        {
+          "id": "s008:q002",
+          "line": 50,
+          "offset": 1312,
+          "end_offset": 1404,
+          "raw": "?[%{{authority_risk}} 客户或用户状态 | 产品分类或标签 | 提示词行为规则 | 功能开关 | 记忆与画像 | 当前未发现，需要先盘点 | ...其他规则或信息]",
+          "kind": "single",
+          "variable": "authority_risk",
+          "options": [
+            "客户或用户状态",
+            "产品分类或标签",
+            "提示词行为规则",
+            "功能开关",
+            "记忆与画像",
+            "当前未发现，需要先盘点"
+          ],
+          "free_text": true,
+          "input_hint": "其他规则或信息"
+        },
+        {
+          "id": "s008:q003",
+          "line": 60,
+          "offset": 1681,
+          "end_offset": 1714,
+          "raw": "?[...说明付款、意向、历史退款的关系，以及决定跟进还缺的条件]",
+          "kind": "input",
+          "variable": null,
+          "options": [],
+          "free_text": true,
+          "input_hint": "说明付款、意向、历史退款的关系，以及决定跟进还缺的条件"
+        }
+      ],
+      "variable_references": [
+        "authority_risk",
+        "business_system_map"
+      ],
+      "outline_bid": "77dc4fa74f634eb290768da18b6b21aa",
+      "chapter_bid": "f8cc810ae3524d6f8ee2c9dc6a45d91f"
+    },
+    {
+      "id": "s009",
+      "title": "为什么版本必须切小",
+      "chapter": "第五章 AI 写代码时代的工程治理",
+      "file": "sections/009.md",
+      "prerequisites": [
+        "s004"
+      ],
+      "teaching_boundary": "不是按页面数拆；Git 不恢复业务数据；测试写进要求不等于已经生效。",
+      "interactions": [
+        {
+          "id": "s009:q001",
+          "line": 6,
+          "offset": 137,
+          "end_offset": 191,
+          "raw": "?[先做完再统一验收 | 一次只验证一个想法，分步推进 | 按页面分工同时上线 | 先定完整数据结构再验证]",
+          "kind": "single",
+          "variable": null,
+          "options": [
+            "先做完再统一验收",
+            "一次只验证一个想法，分步推进",
+            "按页面分工同时上线",
+            "先定完整数据结构再验证"
+          ],
+          "free_text": false,
+          "input_hint": null
+        },
+        {
+          "id": "s009:q002",
+          "line": 59,
+          "offset": 1517,
+          "end_offset": 1564,
+          "raw": "?[%{{version_slice}} ...每一步写清只验证什么、观察什么、失败撤回什么]",
+          "kind": "input",
+          "variable": "version_slice",
+          "options": [],
+          "free_text": true,
+          "input_hint": "每一步写清只验证什么、观察什么、失败撤回什么"
+        },
+        {
+          "id": "s009:q003",
+          "line": 66,
+          "offset": 1804,
+          "end_offset": 1860,
+          "raw": "?[单一页面文字错误 | 多个规则和模块互相冲突且无法解释真实行为 | 新功能还没设计图 | 开发速度暂时变慢]",
+          "kind": "single",
+          "variable": null,
+          "options": [
+            "单一页面文字错误",
+            "多个规则和模块互相冲突且无法解释真实行为",
+            "新功能还没设计图",
+            "开发速度暂时变慢"
+          ],
+          "free_text": false,
+          "input_hint": null
+        }
+      ],
+      "variable_references": [
+        "project_context",
+        "version_slice"
+      ],
+      "outline_bid": "9120e8df6df24522977dbaaa19679322",
+      "chapter_bid": "3ef961ebbcb34bfd8d521480bd0bbd35"
+    },
+    {
+      "id": "s010",
+      "title": "数据为什么回不去",
+      "chapter": "第五章 AI 写代码时代的工程治理",
+      "file": "sections/010.md",
+      "prerequisites": [
+        "s009"
+      ],
+      "teaching_boundary": "隐藏不等于删除，备份不等于恢复验证；未知不能说成没有；不提供生产修复命令。",
+      "interactions": [
+        {
+          "id": "s010:q001",
+          "line": 7,
+          "offset": 141,
+          "end_offset": 202,
+          "raw": "?[会，回到旧代码就回到旧数据 | 不会，已写数据需要单独处理 | 只要关闭新功能就会消失 | 重新生成一遍就能覆盖错误]",
+          "kind": "single",
+          "variable": null,
+          "options": [
+            "会，回到旧代码就回到旧数据",
+            "不会，已写数据需要单独处理",
+            "只要关闭新功能就会消失",
+            "重新生成一遍就能覆盖错误"
+          ],
+          "free_text": false,
+          "input_hint": null
+        },
+        {
+          "id": "s010:q002",
+          "line": 57,
+          "offset": 1530,
+          "end_offset": 1614,
+          "raw": "?[%{{data_risk}} 用户身份与权限 | 订单、金额或权益 | 客户业务记录 | 内容与知识版本 | AI 生成草稿 | 暂无真实数据 | ...其他数据]",
+          "kind": "single",
+          "variable": "data_risk",
+          "options": [
+            "用户身份与权限",
+            "订单、金额或权益",
+            "客户业务记录",
+            "内容与知识版本",
+            "AI 生成草稿",
+            "暂无真实数据"
+          ],
+          "free_text": true,
+          "input_hint": "其他数据"
+        },
+        {
+          "id": "s010:q003",
+          "line": 69,
+          "offset": 1978,
+          "end_offset": 2018,
+          "raw": "?[...区分阻止后续发送与处理已发通知，说明核对依据和补救责任；无需实际操作]",
+          "kind": "input",
+          "variable": null,
+          "options": [],
+          "free_text": true,
+          "input_hint": "区分阻止后续发送与处理已发通知，说明核对依据和补救责任；无需实际操作"
+        }
+      ],
+      "variable_references": [
+        "case_position",
+        "data_risk",
+        "learner_role",
+        "product_direction",
+        "project_context",
+        "project_stage"
+      ],
+      "outline_bid": "e5c65e98507a4c8788fc3c667016399a",
+      "chapter_bid": "3ef961ebbcb34bfd8d521480bd0bbd35"
+    },
+    {
+      "id": "s011",
+      "title": "怎样证明 AI 产品可用",
+      "chapter": "第六章 从感觉可用到真正可控",
+      "file": "sections/011.md",
+      "prerequisites": [
+        "s004",
+        "s010"
+      ],
+      "teaching_boundary": "两条用例不是完整测试集；已有未运行应写待验证；只提供一条时另一条待补。",
+      "interactions": [
+        {
+          "id": "s011:q001",
+          "line": 7,
+          "offset": 134,
+          "end_offset": 201,
+          "raw": "?[可以，这些样例代表常见问题 | 不足，还需核对风险与真实使用的完整过程 | 可以，只要线上模型保持一致 | 再加同类样例后就可以]",
+          "kind": "single",
+          "variable": null,
+          "options": [
+            "可以，这些样例代表常见问题",
+            "不足，还需核对风险与真实使用的完整过程",
+            "可以，只要线上模型保持一致",
+            "再加同类样例后就可以"
+          ],
+          "free_text": false,
+          "input_hint": null
+        },
+        {
+          "id": "s011:q002",
+          "line": 46,
+          "offset": 1639,
+          "end_offset": 1705,
+          "raw": "?[%{{acceptance_evidence}} ...正常用例；失败或边界用例；各写预期、禁止结果和核对依据，未知项写待确认]",
+          "kind": "input",
+          "variable": "acceptance_evidence",
+          "options": [],
+          "free_text": true,
+          "input_hint": "正常用例；失败或边界用例；各写预期、禁止结果和核对依据，未知项写待确认"
+        },
+        {
+          "id": "s011:q003",
+          "line": 54,
+          "offset": 2034,
+          "end_offset": 2090,
+          "raw": "?[事实或格式轻微波动 | 泄露隐私、越权动作、错误扣费或高风险承诺 | 个别表达不够自然 | 页面颜色不理想]",
+          "kind": "single",
+          "variable": null,
+          "options": [
+            "事实或格式轻微波动",
+            "泄露隐私、越权动作、错误扣费或高风险承诺",
+            "个别表达不够自然",
+            "页面颜色不理想"
+          ],
+          "free_text": false,
+          "input_hint": null
+        }
+      ],
+      "variable_references": [
+        "acceptance_evidence",
+        "data_risk"
+      ],
+      "outline_bid": "94a07f4d0a0d48f39845a09f787a49ac",
+      "chapter_bid": "953c8eb3848e4d18adac386764743a20"
+    },
+    {
+      "id": "s012",
+      "title": "上线之后谁负责",
+      "chapter": "第六章 从感觉可用到真正可控",
+      "file": "sections/012.md",
+      "prerequisites": [
+        "s009",
+        "s010",
+        "s011"
+      ],
+      "teaching_boundary": "成功码不代表业务完成；内部草稿不自动安全；课程建议不等于授权；范围修正后旧动作不能混入。",
+      "interactions": [
+        {
+          "id": "s012:q001",
+          "line": 7,
+          "offset": 144,
+          "end_offset": 208,
+          "raw": "?[可以 | 不可以，还要验证数据结构、运行版本、任务日志和真实业务结果 | 接口返回 200 就可以 | 本地测试通过就可以]",
+          "kind": "single",
+          "variable": null,
+          "options": [
+            "可以",
+            "不可以，还要验证数据结构、运行版本、任务日志和真实业务结果",
+            "接口返回 200 就可以",
+            "本地测试通过就可以"
+          ],
+          "free_text": false,
+          "input_hint": null
+        },
+        {
+          "id": "s012:q002",
+          "line": 57,
+          "offset": 2019,
+          "end_offset": 2123,
+          "raw": "?[%{{expert_boundary}} 生产数据库迁移或批量订正 | 支付、订单与用户权益 | 安全、隐私或合规 | 高并发与基础设施 | 对外商业承诺 | 当前仍是低风险内部验证 | ...其他问题]",
+          "kind": "single",
+          "variable": "expert_boundary",
+          "options": [
+            "生产数据库迁移或批量订正",
+            "支付、订单与用户权益",
+            "安全、隐私或合规",
+            "高并发与基础设施",
+            "对外商业承诺",
+            "当前仍是低风险内部验证"
+          ],
+          "free_text": true,
+          "input_hint": "其他问题"
+        },
+        {
+          "id": "s012:q003",
+          "line": 76,
+          "offset": 2982,
+          "end_offset": 3020,
+          "raw": "?[...写需要修正的判断，或说明无需修正；再写暂停负责人、信号及待确认项]",
+          "kind": "input",
+          "variable": null,
+          "options": [],
+          "free_text": true,
+          "input_hint": "写需要修正的判断，或说明无需修正；再写暂停负责人、信号及待确认项"
+        }
+      ],
+      "variable_references": [
+        "acceptance_evidence",
+        "authority_risk",
+        "business_bottleneck",
+        "business_scope",
+        "business_system_map",
+        "case_position",
+        "data_risk",
+        "expert_boundary",
+        "learner_role",
+        "minimum_loop",
+        "product_direction",
+        "project_context",
+        "project_stage",
+        "responsibility_boundary",
+        "version_slice"
+      ],
+      "outline_bid": "1df8baae3875460b927af83d6c2529e1",
+      "chapter_bid": "953c8eb3848e4d18adac386764743a20"
+    }
+  ],
+  "warnings": [
+    "lessons/lesson-01.md: 变量 case_position 未由前节收集，核对本节顺序或外部来源",
+    "lessons/lesson-01.md: 变量 learner_role 未由前节收集，核对本节顺序或外部来源",
+    "lessons/lesson-01.md: 变量 project_context 未由前节收集，核对本节顺序或外部来源",
+    "lessons/lesson-01.md: 变量 project_stage 未由前节收集，核对本节顺序或外部来源",
+    "lessons/lesson-02.md: 变量 business_scope 未由前节收集，核对本节顺序或外部来源",
+    "lessons/lesson-03.md: 变量 business_bottleneck 未由前节收集，核对本节顺序或外部来源",
+    "lessons/lesson-04.md: 变量 minimum_loop 未由前节收集，核对本节顺序或外部来源",
+    "lessons/lesson-05.md: 变量 responsibility_boundary 未由前节收集，核对本节顺序或外部来源",
+    "lessons/lesson-06.md: 变量 product_direction 未由前节收集，核对本节顺序或外部来源",
+    "lessons/lesson-07.md: 变量 business_system_map 未由前节收集，核对本节顺序或外部来源",
+    "lessons/lesson-08.md: 变量 authority_risk 未由前节收集，核对本节顺序或外部来源",
+    "lessons/lesson-09.md: 变量 version_slice 未由前节收集，核对本节顺序或外部来源",
+    "lessons/lesson-10.md: 变量 data_risk 未由前节收集，核对本节顺序或外部来源",
+    "lessons/lesson-11.md: 变量 acceptance_evidence 未由前节收集，核对本节顺序或外部来源",
+    "lessons/lesson-12.md: 变量 expert_boundary 未由前节收集，核对本节顺序或外部来源"
+  ],
+  "prerequisite_policy": "用于判断是否需补充解释，不代表必须学完全部前节；课节汇总缺少历史作答时保持待确认。",
+  "warning_review": {
+    "result": "顺序核查通过",
+    "detail": "原转换器只记录前节已收集变量，因此提示本节变量。按正文偏移检查，本课15个命名变量均先在本节收集再引用；原始warnings保留供追溯。课程级缺值遵循UNKNOWN中性案例规则。",
+    "source_revision": 370229
+  },
+  "review_scope": "完整原文与索引检查、课程专用适配审核、独立模型协议演练及一轮针对性复测；不代表真人或多宿主学习效果",
+  "adaptation_update": {
+    "version": "1.0.0",
+    "change": "正式更名、按需读取、实战开场状态隔离、个人课制作后直接带学、旧记录命名空间保留",
+    "verification": "见包外本次审查与验收报告"
+  },
+  "coach_version": "1.0.0",
+  "teaching_principles_status": "confirmed_by_xiaoling_2026-09-15",
+  "display_name": "AI 业务实战学习教练",
+  "release_version": "1.0.0"
+}

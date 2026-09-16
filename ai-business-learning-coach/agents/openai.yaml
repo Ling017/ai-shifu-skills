@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 业务实战学习教练"
+  short_description: "结合真实业务项目学习 AI 落地判断，支持原课互动与个人补学课"
+  default_prompt: "使用 $ai-business-learning-coach，结合我的业务问题带我学习，帮助我形成判断后推进当前一步。"

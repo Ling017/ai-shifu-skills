@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "source_url": "https://app.ai-shifu.cn/c/21750310b9834af9acbb94680bcd90de",
+  "upstream_revision": 370229,
+  "generated_at": "2026-09-10T13:30:27.413060+00:00",
+  "content_version": "b52f8f583a66c391ac470b98452f311b4b6ae9121ef7204041a10afeaf49ebf5",
+  "files": [
+    {
+      "source": "course-prompt.md",
+      "output": "course.md",
+      "sha256": "9120bb3da5071e3290bcd9f27ea708a327c9736848717323f122d14f1b81c470"
+    },
+    {
+      "source": "lessons/lesson-01.md",
+      "output": "sections/001.md",
+      "sha256": "d0d8bd223e5b92076a74e0373672141c7680517620bacff6682604a5d8580131"
+    },
+    {
+      "source": "lessons/lesson-02.md",
+      "output": "sections/002.md",
+      "sha256": "fefb46a0cf5ac321bda08d42e4cd0ba9d791ded60e20a29be9daeaf96d8c9252"
+    },
+    {
+      "source": "lessons/lesson-03.md",
+      "output": "sections/003.md",
+      "sha256": "616a7ef948d1294281d058c065c29981dd9990ce5dd2df59bfc06316b2981740"
+    },
+    {
+      "source": "lessons/lesson-04.md",
+      "output": "sections/004.md",
+      "sha256": "7a7b038b670109796b53c4b5f7e3762db47e62a6a6d247f72f44101cbcdb6251"
+    },
+    {
+      "source": "lessons/lesson-05.md",
+      "output": "sections/005.md",
+      "sha256": "9e70e35f8dc021b01aaacd68b54108d9fc1dcc8383cad269abf61bbc82c978f1"
+    },
+    {
+      "source": "lessons/lesson-06.md",
+      "output": "sections/006.md",
+      "sha256": "649717aa021025db221be6f5a7b27443bc0d8abee31ff77ccf56350724697bfb"
+    },
+    {
+      "source": "lessons/lesson-07.md",
+      "output": "sections/007.md",
+      "sha256": "d3d56db86254f923374d13e0f80ae92fa825f75925f24ffe4ddc3d32b3fe9341"
+    },
+    {
+      "source": "lessons/lesson-08.md",
+      "output": "sections/008.md",
+      "sha256": "84ebc5bff34d22f49ad187977efd6731ec7f21686d04f0d463f2af45bd8470c4"
+    },
+    {
+      "source": "lessons/lesson-09.md",
+      "output": "sections/009.md",
+      "sha256": "694aaa7b6d969933cc831e12c84b7992c8bee1dcbe2ee91de8576ca6d074e030"
+    },
+    {
+      "source": "lessons/lesson-10.md",
+      "output": "sections/010.md",
+      "sha256": "c2bb6e5ffb9ac1cfb687da3e2a279c83551056fcdc05d54c1631f9423f1c0ce4"
+    },
+    {
+      "source": "lessons/lesson-11.md",
+      "output": "sections/011.md",
+      "sha256": "856ca9e5a3d73e07fdd8f8e160896523501fd50f6c57d684b00f95c6db244345"
+    },
+    {
+      "source": "lessons/lesson-12.md",
+      "output": "sections/012.md",
+      "sha256": "8af5b426c3ab82ab15c2b8867894ea3eddf92387cb978032c7286b08da8a273c"
+    }
+  ],
+  "source_kind": "platform_draft",
+  "published_content_match": "not_verified"
+}
