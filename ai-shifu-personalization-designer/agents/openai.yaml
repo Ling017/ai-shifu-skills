@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI 师傅个性化教学设计"
+  short_description: "先萃取老师可跨课程复用的教学思路与风格，再设计具体课程的因材施教"
+  default_prompt: "使用 $ai-shifu-personalization-designer，从我的教学经验或资料中先总结可复用的教学特点与风格，再结合指定课程提出因材施教的优化思路；没有指定课程时先完成教师教学画像。"
+policy:
+  allow_implicit_invocation: true

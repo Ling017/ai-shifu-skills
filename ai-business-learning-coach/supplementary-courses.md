@@ -76,4 +76,3 @@
 | 20 | [为什么知识库测试可能出现“虚高”？](https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=22484152dc334c659d408e314bc98567) | `22484152dc334c659d408e314bc98567` |
 | 21 | [知识库为什么需要维护，工具应该怎么看？](https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=f5ce2e6913d843268e104780f0fc166b) | `f5ce2e6913d843268e104780f0fc166b` |
 | 22 | [看完一个案例：散乱材料怎样变成可用知识？](https://app.ai-shifu.cn/c/7c044f90631f45a39e27fc5aa2c34444?lessonid=3040266b597d4b81b3e4e3fe7c0a0ffe) | `3040266b597d4b81b3e4e3fe7c0a0ffe` |
-
