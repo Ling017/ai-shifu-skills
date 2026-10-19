@@ -10,6 +10,8 @@ This repository stores AI Shifu related Codex skills.
 
 - [个性化教学设计](ai-shifu-personalization-designer/README.md)（`ai-shifu-personalization-designer`，3.0.1）：从教师经验与资料中提炼教学判断和方法，再设计具体课程的因材施教。可独立使用，不依赖 MarkdownFlow 或课程平台；支持自然语言总结与按需结构化交接，采用 MIT 许可。
 
+- [`course-direction-advisor`](course-direction-advisor/README.md): 课程选题顾问。从作者资料与市场证据出发，判断受众、选题、教学支撑与承诺边界；可独立使用，采用 MIT 许可。
+
 ## 基础检查
 
 PR 通过 pre-commit.ci 检查 YAML、JSON、合并冲突标记、大文件和常见文本格式；Markdown 的双空格换行会保留。检查不验证教学效果或内容授权。
