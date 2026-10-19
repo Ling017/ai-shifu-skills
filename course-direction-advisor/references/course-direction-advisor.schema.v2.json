@@ -1,0 +1,424 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Course Direction Advisor Output v2",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "2.0"
+    },
+    "analysis_mode": {
+      "enum": [
+        "A-material-only",
+        "B-market-scan"
+      ]
+    },
+    "report_language": {
+      "type": "string",
+      "minLength": 1
+    },
+    "target_markets": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "research_status": {
+      "enum": [
+        "not-requested",
+        "completed",
+        "partial",
+        "unavailable"
+      ]
+    },
+    "result_status": {
+      "enum": [
+        "recommended",
+        "pending-validation",
+        "not-recommended"
+      ]
+    },
+    "decision_status": {
+      "enum": [
+        "GO",
+        "HOLD",
+        "REWORK",
+        "NO-GO"
+      ]
+    },
+    "decision_reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "directions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primary",
+        "backups",
+        "rejected"
+      ],
+      "properties": {
+        "primary": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/direction"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "backups": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/direction"
+          }
+        },
+        "rejected": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "kind",
+          "locator",
+          "summary"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "enum": [
+              "source",
+              "market"
+            ]
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "observed_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "market": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "market"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "url",
+                "observed_at",
+                "market"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "statement",
+          "kind",
+          "refs"
+        ],
+        "properties": {
+          "statement": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "enum": [
+              "source-direct",
+              "source-inferred",
+              "market-observed",
+              "synthesis-judgment"
+            ]
+          },
+          "refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          }
+        }
+      }
+    },
+    "missing_info": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "risks": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "next_steps": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "scorecard": {
+      "type": "object",
+      "description": "Optional heuristic score and rationale, not proof."
+    },
+    "price_hint": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mvp_scope": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "validation_plan": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "$defs": {
+    "direction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "audience",
+        "objective",
+        "promise_ceiling",
+        "teaching_sufficiency",
+        "source_refs"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "audience": {
+          "type": "string",
+          "minLength": 1
+        },
+        "objective": {
+          "type": "string",
+          "minLength": 1
+        },
+        "promise_ceiling": {
+          "type": "string",
+          "minLength": 1
+        },
+        "teaching_sufficiency": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "lesson_spine": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "result_status": {
+            "const": "recommended"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "decision_status": {
+            "const": "GO"
+          },
+          "analysis_mode": {
+            "const": "B-market-scan"
+          },
+          "research_status": {
+            "enum": [
+              "completed",
+              "partial"
+            ]
+          },
+          "directions": {
+            "properties": {
+              "primary": {
+                "$ref": "#/$defs/direction"
+              }
+            }
+          },
+          "evidence": {
+            "contains": {
+              "properties": {
+                "kind": {
+                  "const": "market"
+                }
+              },
+              "required": [
+                "kind"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "result_status": {
+            "const": "pending-validation"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "decision_status": {
+            "enum": [
+              "HOLD",
+              "REWORK"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "result_status": {
+            "const": "not-recommended"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "decision_status": {
+            "const": "NO-GO"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "analysis_mode": {
+            "const": "A-material-only"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "research_status": {
+            "enum": [
+              "not-requested",
+              "unavailable"
+            ]
+          },
+          "result_status": {
+            "enum": [
+              "pending-validation",
+              "not-recommended"
+            ]
+          },
+          "evidence": {
+            "items": {
+              "properties": {
+                "kind": {
+                  "const": "source"
+                }
+              }
+            }
+          },
+          "claims": {
+            "items": {
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "source-direct",
+                    "source-inferred",
+                    "synthesis-judgment"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "required": [
+    "schema_version",
+    "analysis_mode",
+    "report_language",
+    "target_markets",
+    "research_status",
+    "result_status",
+    "decision_status",
+    "decision_reason",
+    "directions",
+    "evidence",
+    "claims",
+    "missing_info",
+    "risks",
+    "next_steps"
+  ]
+}
