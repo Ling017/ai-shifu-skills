@@ -1,0 +1,7 @@
+interface:
+  display_name: "Xiaoling 做课要求"
+  short_description: "将 Xiaoling 的教学方法、互动澄清、课程测试与提示词修改要求用于 AI 师傅课程"
+  default_prompt: "请使用 $xiaoling-course-requirements，结合 AI 师傅课程制作 Skill，按我的教学要求完成本次课程任务。"
+
+policy:
+  allow_implicit_invocation: true

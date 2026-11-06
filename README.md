@@ -12,8 +12,11 @@ This repository stores AI Shifu related Codex skills.
 
 - [`course-direction-advisor`](course-direction-advisor/README.md): 课程选题顾问。从作者资料与市场证据出发，判断受众、选题、教学支撑与承诺边界；可独立使用，采用 MIT 许可。
 
+- [Xiaoling 做课要求](xiaoling-course-requirements/README.md)（`xiaoling-course-requirements`，1.6.1）：Xiaoling 个人教学方法、作者协作与课程测试要求的公开版；与官方课程制作 Skill 独立联用，按任务选择能力，不固定流程或测试轮数，不依赖私人项目资料。
+
 ## 基础检查
 
 PR 通过 pre-commit.ci 检查 YAML、JSON、合并冲突标记、大文件和常见文本格式；Markdown 的双空格换行会保留。检查不验证教学效果或内容授权。
 
 本地安装 `pre-commit` 后，可运行 `pre-commit run --all-files`。检查配置位于 [`.pre-commit-config.yaml`](.pre-commit-config.yaml)。
+
